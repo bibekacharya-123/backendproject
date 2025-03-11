@@ -51,7 +51,7 @@ const userSchema = new Schema(
 
 
 },{
-    timeseries: true,
+    timestamps: true,
 }
 );
 userSchema.pre("save", async function(next){
